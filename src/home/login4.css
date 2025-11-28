@@ -1,0 +1,29 @@
+input::placeholder {
+    color: purple;
+    font-size: 13px;
+}
+.input-box i {
+    position: absolute;
+    top: 50%;
+    right: 18px;
+    transform: translate(-50%);
+    font-size: 18px;
+    color: red;
+}
+.content .remember {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -16px 0 16px;
+    
+}
+
+.remember label input {
+    accent-color: white;
+    margin-right: 4px;
+}
+
+.remember a {
+    color: blue;
+    text-decoration: none;
+}
